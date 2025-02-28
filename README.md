@@ -5,7 +5,7 @@ Software Engineer with 8 years of experience in web development, ranging from le
 Skills: Python, C#, Elasticsearch, SQL, ML
 
 #### LICENSES & CERTIFICATIONS
-edX - Harvard University - Verified Certificate for Machine Learning and AI with Python
+* edX - Harvard University - Verified Certificate for Machine Learning and AI with Python
 Issued: Feb 2025
 
 
