@@ -1,6 +1,7 @@
 Software Engineer with 8 years of experience in web development, ranging from legacy monolithic applications with no tests to fully tested modern microservices. Skilled in both front-end and back-end technologies, having worked in diverse environments — from small companies to large organizations with cross-functional teams.
 
-<b>Skills</b> : Python, C#, Elasticsearch, SQL, ML
+#### Skills
+Python, C#, Elasticsearch, SQL, ML
 
 #### Licenses & Certifications
 edX - Harvard University - Verified Certificate for Machine Learning and AI with Python | Issued: Feb 2025
