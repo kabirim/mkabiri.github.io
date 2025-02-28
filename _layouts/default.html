@@ -22,9 +22,14 @@
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-
+    
         <p class="view"><a href="{{ https://github.com/kabirim/mkabiri.github.io/blob/main/_layouts/projects.html }}">View the Project on GitHub</a></p>
-
+        <p>{{ ite.github.owner_url }}</p>
+        <p>{{ site.github.repository_url }}</p>
+        <p>{{ absolute_url }}</p>
+        <p>{{ absolute_url }}</p>
+        <p>{{ site.github.repository_name }}</p>
+        
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
