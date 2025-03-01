@@ -1,6 +1,6 @@
 ## Projects
 
-### Decision Tree
+### Decision Tree - Machine learning
 I trained and compared two decision trees to predict diabetes using the Glucose and DiabetesPedigreeFunction variables:
 
 Shallow tree (max_depth=2): about 76% accuracy on the training data and 69% on the test data.
