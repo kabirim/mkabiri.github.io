@@ -12,4 +12,14 @@ Source code :
 
 ![Octocat](./images/result_decision_tree_clustred.jpg)
 
+### Comparative Analysis of Gini Impurity vs. Entropy in a Random Forest Classifier, With and Without PCA
+
+This project focuses on building a Random Forest classifier using two different impurity measures—Gini and Entropy—and comparing their performance on the same dataset. Additionally, it examines how applying Principal Component Analysis (PCA) as a dimensionality-reduction technique affects classification results. By measuring and comparing key metrics, under both criteria and with or without PCA, the project highlights the trade-offs between different impurity measures and the impact of dimensionality reduction. This work also includes data preprocessing, exploratory data analysis, and hyperparameter tuning, providing a comprehensive overview of the end-to-end machine learning workflow.
+
+![Octocat](./images/output_CM_RF_Gini.png) ![Octocat](./images/output_CM_RF_Entropy.png) 
+![Octocat](./images/outputCM_RF_PCA_Gini.png) ![Octocat](./images/output_CM_RF_PCA_Entropy.png)
+
+Source code :  
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/kabirim/machineLearningProjects)
+
 [Back](./)
