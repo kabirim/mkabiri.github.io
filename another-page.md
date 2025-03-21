@@ -1,11 +1,7 @@
 ## Projects
 
-### Decision Tree - Machine learning
-I trained and compared two decision trees to predict diabetes using the Glucose and DiabetesPedigreeFunction variables:
-
-Shallow tree (max_depth=2): about 76% accuracy on the training data and 69% on the test data.
-Deeper tree (max_depth=10): about 93% accuracy on the training data, but only 68% on the test data.
-These results illustrate the phenomenon of overfitting: a more complex model (depth 10) can better “memorize” the training data without improving its ability to predict new data. The simpler model (depth 2) generalizes slightly better, even though its training accuracy is more modest.
+### Comparing Shallow vs. Deep Decision Trees for Diabetes Prediction
+In this project, I trained and compared two decision trees using only the Glucose and DiabetesPedigreeFunction variables to predict diabetes. The shallow tree (max_depth=2) achieved about 76% accuracy on the training set and 69% on the test set, while the deeper tree (max_depth=10) reached 93% accuracy on training but only 68% on the test set. This clearly illustrates overfitting: although a more complex model can fit the training data better, it does not necessarily improve predictive power on unseen data. The simpler tree generalized slightly better despite its lower training accuracy.
 
 Source code :  
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/kabirim/machineLearningProjects)
@@ -19,6 +15,15 @@ This project focuses on building a Random Forest classifier using two different 
 ![Octocat](./images/output_confusion_matrix_randon_forest.png)
 
 Source code :  
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/kabirim/machineLearningProjects)
+
+### Diabetes Prediction Using a Multi-Layer Perceptron (MLP) with scikit-learn
+
+In this project, I aimed to predict the likelihood of developing diabetes based on medical records. I employed an artificial neural network (ANN) of type Multi-Layer Perceptron (MLP) from scikit-learn. Following a thorough data exploration and preparation phase—covering cleaning, encoding, and standardization—I implemented a hyperparameter tuning strategy (varying the number of neurons, hidden layers, activation functions, etc.) to identify the optimal configuration. Model performance was assessed using several classification metrics (accuracy, F1-score, confusion matrix), thereby gauging the model’s ability to effectively flag high-risk patients. This project showcases a comprehensive machine learning workflow, spanning exploratory data analysis to final model evaluation, and highlights the practical utility of neural networks in early diabetes detection.
+
+![Octocat](./images/output_mlp_classification.png)
+
+Source code :
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/kabirim/machineLearningProjects)
 
 [Back](./)
