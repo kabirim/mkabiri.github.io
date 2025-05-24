@@ -4,8 +4,9 @@ Software Engineer with 8 years of experience in web development, ranging from le
 Python, C#, Elasticsearch, SQL, ML
 
 #### Licenses & Certifications
-edX - HarvardX - Verified Certificate for Machine Learning and AI with Python | Issued: Feb 2025
+HarvardX - Verified Certificate for Machine Learning and AI with Python | Issued: Feb 2025
 
 [Link to projects](./another-page.html)
 
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/kabirim)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/mkabiri/)  
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/kabirim)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/mkabiri/)
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/kaggle.svg' alt='linkedin' height='40'>](https://www.kaggle.com/mkabiri/)
