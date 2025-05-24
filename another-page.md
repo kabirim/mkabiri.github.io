@@ -1,6 +1,6 @@
 ## Projects
-### SmartCVMatcher: Enhancing Hiring Efficiency with Machine Learning
-SmartCVMatcher is an AI-powered application that automates resume screening by comparing CVs to job offers. Leveraging Sentence-BERT for semantic text encoding and an XGBoost classifier for prediction, it scores and ranks candidates based on their relevance to the job description. The tool features a user-friendly Streamlit interface, making the recruitment process faster and more objective
+### SmartCVMatcher: AI Resume Matching & Ranking Tool
+SmartCVMatcher is an AI application that automates resume screening by comparing CVs to job offers. Leveraging Sentence-BERT for semantic text encoding and an XGBoost classifier for prediction, it scores and ranks candidates based on their relevance to the job description. The tool features a user-friendly Streamlit interface, making the recruitment process faster and more objective.
 
 Source code :  
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/kabirim/SmartCVMatcher)
