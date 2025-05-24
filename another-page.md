@@ -1,9 +1,15 @@
 ## Projects
+### SmartCVMatcher: Enhancing Hiring Efficiency with Machine Learning
+SmartCVMatcher is an AI-powered application that automates resume screening by comparing CVs to job offers. Leveraging Sentence-BERT for semantic text encoding and an XGBoost classifier for prediction, it scores and ranks candidates based on their relevance to the job description. The tool features a user-friendly Streamlit interface, making the recruitment process faster and more objective
+
+Source code :  
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/kabirim/SmartCVMatcher)
+
 ### NLP API with FastAPI – 6 Advanced NLP Features
 This project aims to deliver a RESTful API built with FastAPI, offering six core features in Natural Language Processing (NLP). Leveraging state-of-the-art models and deep learning architectures, the API provides advanced text processing capabilities such as summarization, text prediction, auto-correction, entity recognition, and question answering. The objective is to create a modular, scalable, and efficient NLP service that can be easily integrated into other applications.
 
 Source code :  
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/kabirim)
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/kabirim/PolyTextAI)
 
 ### Comparing Shallow vs. Deep Decision Trees for Diabetes Prediction
 In this project, I trained and compared two decision trees using only the Glucose and DiabetesPedigreeFunction variables to predict diabetes. The shallow tree (max_depth=2) achieved about 76% accuracy on the training set and 69% on the test set, while the deeper tree (max_depth=10) reached 93% accuracy on training but only 68% on the test set. This clearly illustrates overfitting: although a more complex model can fit the training data better, it does not necessarily improve predictive power on unseen data. The simpler tree generalized slightly better despite its lower training accuracy.
