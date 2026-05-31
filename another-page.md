@@ -1,18 +1,18 @@
 ## Projects
 ### SmartCVMatcher: AI Resume Matching & Ranking Tool
-SmartCVMatcher is an AI application that automates resume screening by comparing CVs to job offers. Leveraging Sentence-BERT for semantic text encoding and an XGBoost classifier for prediction, it scores and ranks candidates based on their relevance to the job description. The tool features a user-friendly Streamlit interface, making the recruitment process faster and more objective.
+SmartCVMatcher is an end-to-end AI-powered recruitment tool that eliminates manual CV screening by automatically comparing resumes against job descriptions. Built with Sentence-BERT for deep semantic understanding and XGBoost for candidate scoring, it ranks applicants by relevance with high accuracy. The intuitive Streamlit interface makes it immediately usable by non-technical HR teams, turning hours of manual review into seconds.
 
 Source code :  
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/kabirim/SmartCVMatcher)
 
 ### NLP API with FastAPI – 6 Advanced NLP Features
-This project aims to deliver a RESTful API built with FastAPI, offering six core features in Natural Language Processing (NLP). Leveraging state-of-the-art models and deep learning architectures, the API provides advanced text processing capabilities such as summarization, text prediction, auto-correction, entity recognition, and question answering. The objective is to create a modular, scalable, and efficient NLP service that can be easily integrated into other applications.
+A production-ready RESTful API built with FastAPI, exposing 6 advanced NLP capabilities through a clean, well-documented interface. Features include text summarization, next-word prediction, auto-correction, named entity recognition (NER), and question answering, all powered by state-of-the-art deep learning models. Designed with modularity and scalability in mind, this API can be seamlessly integrated into any application requiring intelligent text processing.
 
 Source code :  
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/kabirim/PolyTextAI)
 
 ### Comparing Shallow vs. Deep Decision Trees for Diabetes Prediction
-In this project, I trained and compared two decision trees using only the Glucose and DiabetesPedigreeFunction variables to predict diabetes. The shallow tree (max_depth=2) achieved about 76% accuracy on the training set and 69% on the test set, while the deeper tree (max_depth=10) reached 93% accuracy on training but only 68% on the test set. This clearly illustrates overfitting: although a more complex model can fit the training data better, it does not necessarily improve predictive power on unseen data. The simpler tree generalized slightly better despite its lower training accuracy.
+A hands-on exploration of overfitting in decision trees, using diabetes prediction as a real-world use case. By training two models, a shallow tree (max_depth=2) and a deep tree (max_depth=10), on the same dataset, this project demonstrates a fundamental ML principle: a more complex model does not always generalize better. The shallow tree achieved 69% test accuracy vs. 68% for the deeper model, despite the latter reaching 93% on training data. A concrete and visual illustration of the bias-variance tradeoff.
 
 Source code :  
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/kabirim/machineLearningProjects)
@@ -20,8 +20,7 @@ Source code :
 ![Octocat](./images/result_decision_tree_clustred.jpg)
 
 ### Comparative Analysis of Gini Impurity vs. Entropy in a Random Forest Classifier, With and Without PCA
-
-This project focuses on building a Random Forest classifier using two different impurity measures—Gini and Entropy—and comparing their performance on the same dataset. Additionally, it examines how applying Principal Component Analysis (PCA) as a dimensionality-reduction technique affects classification results. By measuring and comparing key metrics, under both criteria and with or without PCA, the project highlights the trade-offs between different impurity measures and the impact of dimensionality reduction. This work also includes data preprocessing, exploratory data analysis, and hyperparameter tuning, providing a comprehensive overview of the end-to-end machine learning workflow.
+An in-depth comparative study of two core splitting criteria — Gini Impurity and Entropy — within a Random Forest classifier, enriched by analyzing the effect of PCA-based dimensionality reduction on model performance. Beyond the model comparison, this project covers the full ML pipeline: data preprocessing, exploratory data analysis (EDA), hyperparameter tuning, and performance evaluation using key classification metrics. A practical demonstration of how algorithmic choices and data transformation impact final results.
 
 ![Octocat](./images/output_confusion_matrix_randon_forest.png)
 
@@ -29,8 +28,10 @@ Source code :
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/kabirim/machineLearningProjects)
 
 ### Diabetes Prediction Using a Multi-Layer Perceptron (MLP) with scikit-learn
-
-In this project, I aimed to predict the likelihood of developing diabetes based on medical records. I employed an artificial neural network (ANN) of type Multi-Layer Perceptron (MLP) from scikit-learn. Following a thorough data exploration and preparation phase—covering cleaning, encoding, and standardization—I implemented a hyperparameter tuning strategy (varying the number of neurons, hidden layers, activation functions, etc.) to identify the optimal configuration. Model performance was assessed using several classification metrics (accuracy, F1-score, confusion matrix), thereby gauging the model’s ability to effectively flag high-risk patients. This project showcases a comprehensive machine learning workflow, spanning exploratory data analysis to final model evaluation, and highlights the practical utility of neural networks in early diabetes detection.
+A complete end-to-end machine learning project focused on early diabetes risk detection using a Multi-Layer Perceptron (MLP) neural network.
+Starting from raw medical records, the workflow covers data cleaning, encoding, standardization, and hyperparameter tuning, including architecture depth, neuron count, and activation functions.
+Model performance is evaluated using accuracy, F1-score, and confusion matrix analysis, with special attention to reducing false negatives, an important consideration in a medical-risk context.
+This project demonstrates how neural networks can be applied to structured medical data for predictive modeling and decision-support exploration.
 
 ![Octocat](./images/output_mlp_classification.png)
 
