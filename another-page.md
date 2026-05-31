@@ -20,7 +20,7 @@ Source code :
 ![Octocat](./images/result_decision_tree_clustred.jpg)
 
 ### Comparative Analysis of Gini Impurity vs. Entropy in a Random Forest Classifier, With and Without PCA
-An in-depth comparative study of two core splitting criteria — Gini Impurity and Entropy — within a Random Forest classifier, enriched by analyzing the effect of PCA-based dimensionality reduction on model performance. Beyond the model comparison, this project covers the full ML pipeline: data preprocessing, exploratory data analysis (EDA), hyperparameter tuning, and performance evaluation using key classification metrics. A practical demonstration of how algorithmic choices and data transformation impact final results.
+An in-depth comparative study of two core splitting criteria, Gini Impurity and Entropy, within a Random Forest classifier, enriched by analyzing the effect of PCA-based dimensionality reduction on model performance. Beyond the model comparison, this project covers the full ML pipeline: data preprocessing, exploratory data analysis (EDA), hyperparameter tuning, and performance evaluation using key classification metrics. A practical demonstration of how algorithmic choices and data transformation impact final results.
 
 ![Octocat](./images/output_confusion_matrix_randon_forest.png)
 
