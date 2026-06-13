@@ -1,4 +1,13 @@
 ## Projects
+### NetBridge - Windows-oriented .NET CLI application for managing local network connectivity workflows
+Designed and built a structured CLI tool that coordinates the full local connection lifecycle, including reusable connection profiles, runtime configuration generation, external networking engine execution, live log streaming, Windows proxy operations, and persistent connection state tracking.
+
+Built with Clean Architecture principles to separate CLI presentation, domain contracts, workflow orchestration, infrastructure services, Windows integration, and automated tests.
+
+Key technical focus areas included testable design, safe process lifecycle management, structured command-line UX, Windows Registry and WinINet integration, clear error handling, and maintainable networking-oriented application architecture.
+
+Tech stack: C#, .NET 10, Clean Architecture, Windows Registry, WinINet APIs, Spectre.Console, System.CommandLine, xUnit.
+
 ### SmartCVMatcher: AI Resume Matching & Ranking Tool
 SmartCVMatcher is an end-to-end AI-powered recruitment tool that eliminates manual CV screening by automatically comparing resumes against job descriptions. Built with Sentence-BERT for deep semantic understanding and XGBoost for candidate scoring, it ranks applicants by relevance with high accuracy. The intuitive Streamlit interface makes it immediately usable by non-technical HR teams, turning hours of manual review into seconds.
 
