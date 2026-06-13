@@ -8,7 +8,7 @@ Key technical focus areas included testable design, safe process lifecycle manag
 
 Tech stack: C#, .NET 10, Clean Architecture, Windows Registry, WinINet APIs, Spectre.Console, System.CommandLine, xUnit.
 
-<img src="./images/NetBridge_CLI.png" alt="Octocat" width="300" height="300">
+<img src="./images/NetBridge_CLI.png" alt="Octocat" width="200" height="200">
 
 ### SmartCVMatcher: AI Resume Matching & Ranking Tool
 SmartCVMatcher is an end-to-end AI-powered recruitment tool that eliminates manual CV screening by automatically comparing resumes against job descriptions. Built with Sentence-BERT for deep semantic understanding and XGBoost for candidate scoring, it ranks applicants by relevance with high accuracy. The intuitive Streamlit interface makes it immediately usable by non-technical HR teams, turning hours of manual review into seconds.
